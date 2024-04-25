@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AimalPageComponent } from './animal-page.component';
+import { AnimalPageComponent } from './animal-page.component';
 
-describe('AimalPageComponent', () => {
-  let component: AimalPageComponent;
-  let fixture: ComponentFixture<AimalPageComponent>;
+describe('AnimalPageComponent', () => {
+  let component: AnimalPageComponent;
+  let fixture: ComponentFixture<AnimalPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AimalPageComponent]
+      imports: [AnimalPageComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AimalPageComponent);
+    fixture = TestBed.createComponent(AnimalPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
