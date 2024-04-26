@@ -14,13 +14,9 @@ export class AnimalItemComponent {
    *
    */
   constructor() {
-    /*this.animal = new Animal();
-    //this.animal.nome = "Mingau";
-    this.animal.especie = "Felino";
-    this.animal.idade = 18;
-    this.animal.sexo = "macho";*/
-
-
+    // this.animal =
+    //       new Animal("Mingau", "Felino",
+    //                 18, "macho");
   }
 
   @Input() animal: Animal = new Animal("", "", 0, "");

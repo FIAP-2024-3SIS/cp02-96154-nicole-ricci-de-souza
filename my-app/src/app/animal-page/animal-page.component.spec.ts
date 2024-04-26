@@ -11,7 +11,7 @@ describe('AnimalPageComponent', () => {
       imports: [AnimalPageComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(AnimalPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
